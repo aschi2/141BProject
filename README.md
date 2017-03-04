@@ -1,7 +1,8 @@
 # 141BProject
 ## Analysis of the effects of the 2017 Travel Ban Executive order
 We were curious what some of the effects of the 2017 Travel Ban executive order signed by President Donald Trump on individuals and wanted to answer a few specific questions.
-    1. Looking at the 7 countries targeted by the ban, how many people would be refused greencards over a 90 day period? What proportion would be refugees?
+   
+   1. Looking at the 7 countries targeted by the ban, how many people would be refused greencards over a 90 day period? What proportion would be refugees?
     -howandwheregreencard.xls
     Assume refugee applicants for 2017 are roughly the same as 2015 and the applicants are distributed iid Uniformly over the year.
     
