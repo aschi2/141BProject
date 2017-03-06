@@ -72,7 +72,7 @@ def createconnectiontostreamer(a):
     return stream
 
 
-def streamrestarter(a,listofsearch = ["muslim ban","trump ban","travel ban"]):
+def streamrestarter(a,listofsearch = ["muslim ban","travel ban"]):
     """a is auth object (get from createconnectiontostreamer()), listofsearch is list of search terms. """
     
     try:
@@ -83,7 +83,6 @@ def streamrestarter(a,listofsearch = ["muslim ban","trump ban","travel ban"]):
         return
     except:
         print "ERROR! RESTARTING!"
-        createconnectiontostreamer(a).disconnect()
         streamrestarter(a,listofsearch)
         return
 
