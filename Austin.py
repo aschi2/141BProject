@@ -72,15 +72,18 @@ def createconnectiontostreamer(a):
     return stream
 
 
-def streamrestarter(stream,listofsearch):
-    """stream is stream object (get from createconnectiontostreamer()), listofsearch is list of search terms. """
+def streamrestarter(a,listofsearch = ["muslim ban","trump ban","travel ban"]):
+    """a is auth object (get from createconnectiontostreamer()), listofsearch is list of search terms. """
+    
     try:
-        stream.filter(track=listofsearch)
+        createconnectiontostreamer(a).filter(track=listofsearch)
+        return
     except KeyboardInterrupt:
-        stream.disconnect()
+        createconnectiontostreamer(a).disconnect()
         return
     except:
         print "ERROR! RESTARTING!"
-        streamrestarter(stream,listofsearch)
+        createconnectiontostreamer(a).disconnect()
+        streamrestarter(a,listofsearch)
         return
 
