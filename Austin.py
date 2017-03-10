@@ -4,6 +4,7 @@ import sqlite3
 from sqlalchemy import create_engine
 import datetime
 import tweepy
+import time
 
 def save_game(df,overwrite = "none",append = False):
     """Saves Pandas Dataframe to sqlite database. Takes in Pandas Dataframe and name of database(optional). Defualt name is the date."""
@@ -82,6 +83,7 @@ def streamrestarter(a,listofsearch = ["muslim ban","travel ban"]):
         createconnectiontostreamer(a).disconnect()
         return
     except:
+        time.sleep(5)
         print "ERROR! RESTARTING!"
         streamrestarter(a,listofsearch)
         return
