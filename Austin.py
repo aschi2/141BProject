@@ -83,8 +83,8 @@ def streamrestarter(a,listofsearch = ["muslim ban","travel ban"]):
         createconnectiontostreamer(a).disconnect()
         return
     except:
+        print "ERROR! RESTARTING IN 5 SECONDS!"
         time.sleep(5)
-        print "ERROR! RESTARTING!"
         streamrestarter(a,listofsearch)
         return
 
