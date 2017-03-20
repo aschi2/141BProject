@@ -1,7 +1,7 @@
 # 141B Project
-#By Austin Chi, Spencer Phillips, and Vuong Nguyen
+By Austin Chi, Spencer Phillips, and Vuong Nguyen
 ## Analysis of the effects of the 2017 Travel Ban Executive order
-###Questions
+*Questions*
 We were curious what some of the effects of the 2017 Travel Ban executive order signed by President Donald Trump on individuals and wanted to answer a few specific questions, numbered by priority/interest.
    
    1. Looking at the 7 countries targeted by the ban, how many people would be refused greencards over a 90 day period? What proportion would be refugees?
