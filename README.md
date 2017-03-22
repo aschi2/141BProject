@@ -22,6 +22,7 @@ We were curious what some of the effects of the 2017 Travel Ban executive order 
 
 We asked these to see more into what this ban would do to the United States as a whole using data from 2015 from the US Department of Homeland Security. This data will be analyzed through pandas and visualized in different ways.
 
+Our final project is in the "Immigration Final Project.ipynb" file, we also have an HTML version as well named the same except being an HTML file.
 
 
 
